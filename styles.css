@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #e0e7ff;
+    background-color: #0f172a;
 }
 
 .container {
@@ -23,9 +23,9 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: all 0.3s ease;
 }
@@ -43,7 +43,7 @@ body {
 .nav-logo .logo-text {
     font-size: 24px;
     font-weight: 700;
-    color: #2563eb;
+    color: #60a5fa;
     text-decoration: none;
 }
 
@@ -55,14 +55,14 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: #cbd5e1;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-link:hover {
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 .nav-link::after {
@@ -72,7 +72,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #2563eb;
+    background: #60a5fa;
     transition: width 0.3s ease;
 }
 
@@ -89,7 +89,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background: #333;
+    background: #cbd5e1;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -99,7 +99,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
     color: white;
     padding-top: 70px;
 }
@@ -166,8 +166,8 @@ body {
 }
 
 .btn-primary {
-    background: white;
-    color: #2563eb;
+    background: #60a5fa;
+    color: #0f172a;
 }
 
 .btn-primary:hover {
@@ -182,8 +182,8 @@ body {
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #2563eb;
+    background: #60a5fa;
+    color: #0f172a;
     transform: translateY(-2px);
 }
 
@@ -246,7 +246,7 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 60px;
-    color: #333;
+    color: #e0e7ff;
     position: relative;
 }
 
@@ -258,13 +258,13 @@ section {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
     border-radius: 2px;
 }
 
 /* About Section */
 .about {
-    background: white;
+    background: #1e293b;
 }
 
 .about-content {
@@ -278,13 +278,13 @@ section {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 20px;
-    color: #555;
+    color: #cbd5e1;
 }
 
 .contact-info h3 {
     font-size: 1.3rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #e0e7ff;
 }
 
 .contact-item {
@@ -293,17 +293,17 @@ section {
     gap: 15px;
     margin-bottom: 15px;
     font-size: 1rem;
-    color: #555;
+    color: #cbd5e1;
 }
 
 .contact-item i {
     width: 20px;
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 /* Skills Section */
 .skills {
-    background: #f8f9fa;
+    background: #0f172a;
 }
 
 .skills-grid {
@@ -313,29 +313,29 @@ section {
 }
 
 .skill-category {
-    background: white;
+    background: #1e293b;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-category:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(96, 165, 250, 0.2);
 }
 
 .skill-category h3 {
     font-size: 1.3rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #e0e7ff;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .skill-category h3 i {
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 .skill-category ul {
@@ -344,9 +344,9 @@ section {
 
 .skill-category li {
     padding: 8px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #334155;
     font-size: 0.95rem;
-    color: #555;
+    color: #cbd5e1;
 }
 
 .skill-category li:last-child {
@@ -355,14 +355,14 @@ section {
 
 .skill-category li::before {
     content: '▸';
-    color: #2563eb;
+    color: #60a5fa;
     font-weight: bold;
     margin-right: 10px;
 }
 
 /* Projects Section */
 .projects {
-    background: white;
+    background: #1e293b;
 }
 
 .projects-grid {
@@ -372,20 +372,20 @@ section {
 }
 
 .project-card {
-    background: white;
+    background: #0f172a;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(96, 165, 250, 0.2);
 }
 
 .project-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     color: white;
     padding: 25px;
     display: flex;
@@ -413,9 +413,9 @@ section {
 
 .project-content li {
     padding: 10px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #334155;
     font-size: 0.95rem;
-    color: #555;
+    color: #cbd5e1;
     line-height: 1.6;
 }
 
@@ -425,41 +425,41 @@ section {
 
 .project-content li::before {
     content: '✓';
-    color: #2563eb;
+    color: #60a5fa;
     font-weight: bold;
     margin-right: 10px;
 }
 
 /* Education Section */
 .education {
-    background: #f8f9fa;
+    background: #0f172a;
 }
 
 .education-card {
-    background: white;
+    background: #1e293b;
     border-radius: 15px;
     padding: 40px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     max-width: 800px;
     margin: 0 auto;
 }
 
 .education-header h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #e0e7ff;
     margin-bottom: 10px;
 }
 
 .education-institution {
     font-size: 1.1rem;
-    color: #2563eb;
+    color: #60a5fa;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
 .education-content h4 {
     font-size: 1.2rem;
-    color: #333;
+    color: #e0e7ff;
     margin-bottom: 20px;
 }
 
@@ -472,16 +472,16 @@ section {
 
 .education-content li {
     padding: 10px 15px;
-    background: #f8f9fa;
+    background: #0f172a;
     border-radius: 8px;
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid #60a5fa;
     font-size: 0.95rem;
-    color: #555;
+    color: #cbd5e1;
 }
 
 /* Strengths Section */
 .strengths {
-    background: white;
+    background: #1e293b;
 }
 
 .strengths-grid {
@@ -493,31 +493,31 @@ section {
 .strength-item {
     text-align: center;
     padding: 30px;
-    background: #f8f9fa;
+    background: #0f172a;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .strength-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.2);
 }
 
 .strength-item i {
     font-size: 2.5rem;
-    color: #2563eb;
+    color: #60a5fa;
     margin-bottom: 15px;
 }
 
 .strength-item span {
     font-size: 1rem;
     font-weight: 500;
-    color: #333;
+    color: #e0e7ff;
 }
 
 /* Contact Section */
 .contact {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
     color: white;
 }
 
@@ -545,19 +545,19 @@ section {
 
 .contact-buttons .btn-primary {
     background: white;
-    color: #2563eb;
+    color: #1e3a8a;
 }
 
 .contact-buttons .btn-secondary {
     background: transparent;
     color: white;
-    border: 2px solid white;
+    border: 2px solid #60a5fa;
 }
 
 /* Footer */
 .footer {
-    background: #333;
-    color: white;
+    background: #0f172a;
+    color: #cbd5e1;
     text-align: center;
     padding: 30px 0;
 }
@@ -574,11 +574,11 @@ section {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: white;
+        background: #1e293b;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
         padding: 20px 0;
     }
 
